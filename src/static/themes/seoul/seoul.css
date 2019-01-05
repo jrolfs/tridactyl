@@ -1,0 +1,274 @@
+/*---
+
+# Seoul theme for Tridactyl
+
+Based on the majestic [**seoul256.vim**](https://github.com/junegunn/seoul256.vim)
+color scheme for Vim by [**@junegunn**](https://github.com/junegunn).
+
+Ported by [**@jrolfs**](https://github.com/jrolfs).
+
+*/
+
+:root {
+    /*---
+    title:   256/Full Color Pallette
+    section: Properties
+    ---
+
+    ≈256 color pallette available to tweak, improve, or extend this theme.
+    Converted directly from Vim script source:
+    [`master@1475b76`](https://github.com/junegunn/seoul256.vim/blob/1475b76/colors/seoul256.vim#L39-L118).
+
+    */
+
+    --tridactyl-seoul-color-16: #000000;
+    --tridactyl-seoul-color-17: #00005f;
+    --tridactyl-seoul-color-18: #000087;
+    --tridactyl-seoul-color-19: #0000af;
+    --tridactyl-seoul-color-20: #0000d7;
+    --tridactyl-seoul-color-21: #0000ff;
+    --tridactyl-seoul-color-22: #006f00;
+    --tridactyl-seoul-color-23: #007173;
+    --tridactyl-seoul-color-24: #007299;
+    --tridactyl-seoul-color-25: #0074be;
+    --tridactyl-seoul-color-30: #009799;
+    --tridactyl-seoul-color-32: #0099bd;
+    --tridactyl-seoul-color-38: #00bddf;
+    --tridactyl-seoul-color-52: #730b00;
+    --tridactyl-seoul-color-58: #727100;
+    --tridactyl-seoul-color-59: #727272;
+    --tridactyl-seoul-color-65: #719872;
+    --tridactyl-seoul-color-66: #719899;
+    --tridactyl-seoul-color-67: #7299bc;
+    --tridactyl-seoul-color-68: #719cdf;
+    --tridactyl-seoul-color-73: #6fbcbd;
+    --tridactyl-seoul-color-74: #70bddf;
+    --tridactyl-seoul-color-88: #9b1300;
+    --tridactyl-seoul-color-89: #9b1d72;
+    --tridactyl-seoul-color-94: #9a7200;
+    --tridactyl-seoul-color-95: #9a7372;
+    --tridactyl-seoul-color-96: #9a7599;
+    --tridactyl-seoul-color-101: #999872;
+    --tridactyl-seoul-color-103: #999abd;
+    --tridactyl-seoul-color-108: #98bc99;
+    --tridactyl-seoul-color-109: #98bcbd;
+    --tridactyl-seoul-color-110: #98bede;
+    --tridactyl-seoul-color-116: #97dddf;
+    --tridactyl-seoul-color-125: #bf2172;
+    --tridactyl-seoul-color-131: #be7572;
+    --tridactyl-seoul-color-137: #be9873;
+    --tridactyl-seoul-color-143: #bdbb72;
+    --tridactyl-seoul-color-144: #bdbc98;
+    --tridactyl-seoul-color-145: #bdbdbd;
+    --tridactyl-seoul-color-151: #bcddbd;
+    --tridactyl-seoul-color-152: #bcdede;
+    --tridactyl-seoul-color-153: #bce0ff;
+    --tridactyl-seoul-color-161: #e12672;
+    --tridactyl-seoul-color-168: #e17899;
+    --tridactyl-seoul-color-173: #e19972;
+    --tridactyl-seoul-color-174: #e09b99;
+    --tridactyl-seoul-color-179: #dfbc72;
+    --tridactyl-seoul-color-181: #e0bebc;
+    --tridactyl-seoul-color-184: #dedc00;
+    --tridactyl-seoul-color-186: #dedd99;
+    --tridactyl-seoul-color-187: #dfdebd;
+    --tridactyl-seoul-color-189: #dfdfff;
+    --tridactyl-seoul-color-216: #ffbd98;
+    --tridactyl-seoul-color-217: #ffbfbd;
+    --tridactyl-seoul-color-218: #ffc0de;
+    --tridactyl-seoul-color-220: #ffdd00;
+    --tridactyl-seoul-color-222: #ffde99;
+    --tridactyl-seoul-color-224: #ffdfdf;
+    --tridactyl-seoul-color-230: #ffffdf;
+    --tridactyl-seoul-color-231: #ffffff;
+    --tridactyl-seoul-color-232: #060606;
+    --tridactyl-seoul-color-233: #171717;
+    --tridactyl-seoul-color-234: #252525;
+    --tridactyl-seoul-color-235: #333233;
+    --tridactyl-seoul-color-236: #3f3f3f;
+    --tridactyl-seoul-color-237: #4b4b4b;
+    --tridactyl-seoul-color-238: #565656;
+    --tridactyl-seoul-color-239: #616161;
+    --tridactyl-seoul-color-240: #6b6b6b;
+    --tridactyl-seoul-color-241: #757575;
+    --tridactyl-seoul-color-249: #bfbfbf;
+    --tridactyl-seoul-color-250: #c8c8c8;
+    --tridactyl-seoul-color-251: #d1d0d1;
+    --tridactyl-seoul-color-252: #d9d9d9;
+    --tridactyl-seoul-color-253: #e1e1e1;
+    --tridactyl-seoul-color-254: #e9e9e9;
+    --tridactyl-seoul-color-255: #f1f1f1;
+
+    /*---
+    title:   ANSI/Terminal Color Pallette
+    section: Properties
+    ---*/
+
+    --tridactyl-seoul-color-selection-foreground: #ffd700;
+    --tridactyl-seoul-color-selection-background: #444444;
+
+    --tridactyl-seoul-color-foreground: #d0d0d0;
+    --tridactyl-seoul-color-background: #3a3a3a;
+
+    --tridactyl-seoul-color-black: #4e4e4e;
+    --tridactyl-seoul-color-brightblack: #626262;
+
+    --tridactyl-seoul-color-red: #d68787;
+    --tridactyl-seoul-color-brightred: #d75f87;
+
+    --tridactyl-seoul-color-grean: #5f865f;
+    --tridactyl-seoul-color-brightgrean: #87af87;
+
+    --tridactyl-seoul-color-yellow: #d8af5f;
+    --tridactyl-seoul-color-brightyellow: #ffd787;
+
+    --tridactyl-seoul-color-blue: #85add4;
+    --tridactyl-seoul-color-brightblue: #add4fb;
+
+    --tridactyl-seoul-color-magenta: #d7afaf;
+    --tridactyl-seoul-color-brightmagenta: #ffafaf;
+
+    --tridactyl-seoul-color-cyan: #87afaf;
+    --tridactyl-seoul-color-brightcyan: #87d7d7;
+
+    --tridactyl-seoul-color-white: #d0d0d0;
+    --tridactyl-seoul-color-brightwhite: #e4e4e4;
+
+    /*---
+    title:   Typography
+    section: Properties
+    ---*/
+
+    --tridactyl-font-family: "Operator Mono SSm Lig", "Operator Mono SSm",
+        "Fira Code", "Fira Mono", "IBM Plex Mono", monospace;
+    --tridactyl-font-family-sans: "Operator SSm", "Fira Sans", "IBM Plex Sans",
+        sans-serif;
+
+    --tridactyl-font-size: 15pt;
+    --tridactyl-small-font-size: 13px;
+
+    --tridactyl-bg: var(--tridactyl-seoul-color-background);
+    --tridactyl-fg: var(--tridactyl-seoul-color-foreground);
+
+    --tridactyl-logo: url("data:image/png;base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iLTM2IC0yNCA3MiA0OCI+CiAgICA8cGF0aCBmaWxsPSIjZmZmIiBkPSJNLTM2LTI0aDcydjQ4aC03MnoiLz4KICAgIDxnIHRyYW5zZm9ybT0icm90YXRlKC01Ni4zMSkiPgogICAgICAgIDxnIGlkPSJiIj4KICAgICAgICAgICAgPHBhdGggaWQ9ImEiIGQ9Ik0tNi0yNUg2bS0xMiAzSDZtLTEyIDNINiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgICAgICAgICAgPHVzZSB4bGluazpocmVmPSIjYSIgeT0iNDQiLz4KICAgICAgICA8L2c+CiAgICAgICAgPHBhdGggc3Ryb2tlPSIjZmZmIiBkPSJNMCAxN3YxMCIvPgogICAgICAgIDxjaXJjbGUgZmlsbD0iI2NkMmUzYSIgcj0iMTIiLz4KICAgICAgICA8cGF0aCBmaWxsPSIjMDA0N2EwIiBkPSJNMC0xMkE2IDYgMCAwIDAgMCAwYTYgNiAwIDAgMSAwIDEyIDEyIDEyIDAgMCAxIDAtMjR6Ii8+CiAgICA8L2c+CiAgICA8ZyB0cmFuc2Zvcm09InJvdGF0ZSgtMTIzLjY5KSI+CiAgICAgICAgPHVzZSB4bGluazpocmVmPSIjYiIvPgogICAgICAgIDxwYXRoIHN0cm9rZT0iI2ZmZiIgZD0iTTAtMjMuNXYzTTAgMTd2My41bTAgM3YzIi8+CiAgICA8L2c+Cjwvc3ZnPgo=");
+
+    /*---
+    title:   Mode Indicator
+    section: Properties
+    ---*/
+
+    --tridactyl-status-font-family: var(--tridactyl-font-family);
+    --tridactyl-status-font-size: var(--tridactyl-small-font-size);
+    --tridactyl-status-bg: var(--tridactyl-seoul-color-black);
+    --tridactyl-status-fg: var(--tridactyl-seoul-color-brightblack);
+    --tridactyl-status-border: 2px var(--tridactyl-seoul-color-cyan) solid;
+    --tridactyl-status-border-radius: 2px;
+
+    /* Hinting */
+
+    /* Hint character tags */
+    --tridactyl-hintspan-font-family: var(--tridactyl-font-family-sans);
+    --tridactyl-hintspan-font-size: var(--tridactyl-small-font-size);
+    --tridactyl-hintspan-font-weight: bold;
+    --tridactyl-hintspan-fg: var(--tridactyl-seoul-color-selection-background);
+    --tridactyl-hintspan-bg: var(--tridactyl-seoul-color-selection-foreground);
+    --tridactyl-hintspan-border-color: ButtonShadow;
+    --tridactyl-hintspan-border-width: 0px;
+    --tridactyl-hintspan-border-style: solid;
+
+    /* Element highlights */
+    --tridactyl-hint-active-fg: var(--tridactyl-fg);
+    --tridactyl-hint-active-bg: var(--tridactyl-seoul-color-brightcyan);
+    --tridactyl-hint-active-outline: 1px solid var(--tridactyl-seoul-color-cyan);
+
+    --tridactyl-hint-bg: rgba(255, 255, 0, 0.25);
+    --tridactyl-hint-outline: 1px solid #8f5902;
+
+    /* :viewsource */
+    --tridactyl-vs-bg: var(--tridactyl-bg);
+    --tridactyl-vs-fg: var(--tridactyl-fg);
+    --tridactyl-vs-font-family: var(--tridactyl-font-family);
+
+    /*commandline*/
+
+    --tridactyl-cmdl-bg: var(--tridactyl-bg);
+    --tridactyl-cmdl-fg: var(--tridactyl-fg);
+    --tridactyl-cmdl-line-height: 1.5;
+    --tridactyl-cmdl-font-family: monospace;
+    --tridactyl-cmdl-font-size: 9pt;
+
+    /*completions*/
+
+    --tridactyl-cmplt-option-height: 1.4em;
+    --tridactyl-cmplt-fg: var(--tridactyl-fg);
+    --tridactyl-cmplt-bg: var(--tridactyl-bg);
+    --tridactyl-cmplt-font-size: 10pt;
+    --tridactyl-cmplt-font-family: monospace;
+    /* i don't think 0.5px is redered */
+    --tridactyl-cmplt-border-top: 1px solid grey;
+
+    /* need a better way for naming variables
+
+   .Properties for .HistoryCompletionSource table
+   .Properties for .BmarkCompletionSource table
+
+  /
+
+  /*sectionHeader*/
+
+    --tridactyl-header-first-bg: LightGray;
+    --tridactyl-header-second-bg: #ddd;
+    --tridactyl-header-third-bg: LightGray;
+    /* eg. What if I dont want liner-gradient as bg?
+
+   :root .sectionHeader { background: blue; }
+
+   ????
+  /
+
+  --tridactyl-header-font-weight: bold;
+  /* i don't think 0.5px is redered */
+    --tridactyl-header-border-bottom: 1px solid bottom;
+
+    /*url style*/
+
+    --tridactyl-url-text-decoration: none;
+    --tridactyl-url-fg: #1f9947;
+    --tridactyl-url-bg: var(--tridactyl-bg);
+    --tridactyl-url-cursor: pointer;
+
+    /*option focused*/
+
+    --tridactyl-of-fg: var(--tridactyl-fg);
+    --tridactyl-of-bg: #ffec8b;
+
+    /*new tab spoiler box*/
+    --tridactyl-highlight-box-bg: #eee;
+    --tridactyl-highlight-box-fg: var(--tridactyl-fg);
+
+    --tridactyl-private-window-icon-url: url("chrome://browser/skin/privatebrowsing/private-browsing.svg");
+
+    --tridactyl-container-fingerprint-url: url("resource://usercontext-content/fingerprint.svg");
+    --tridactyl-container-briefcase-url: url("resource://usercontext-content/briefcase.svg");
+    --tridactyl-container-dollar-url: url("resource://usercontext-content/dollar.svg");
+    --tridactyl-container-cart-url: url("resource://usercontext-content/cart.svg");
+    --tridactyl-container-circle-url: url("resource://usercontext-content/circle.svg");
+    --tridactyl-container-gift-url: url("resource://usercontext-content/gift.svg");
+    --tridactyl-container-vacation-url: url("resource://usercontext-content/vacation.svg");
+    --tridactyl-container-food-url: url("resource://usercontext-content/food.svg");
+    --tridactyl-container-fruit-url: url("resource://usercontext-content/fruit.svg");
+    --tridactyl-container-pet-url: url("resource://usercontext-content/pet.svg");
+    --tridactyl-container-tree-url: url("resource://usercontext-content/tree.svg");
+    --tridactyl-container-chill-url: url("resource://usercontext-content/chill.svg");
+
+    --tridactyl-container-color-blue: #37adff;
+    --tridactyl-container-color-turquoise: #00c79a;
+    --tridactyl-container-color-green: #51cd00;
+    --tridactyl-container-color-yellow: #ffcb00;
+    --tridactyl-container-color-orange: #ff9f00;
+    --tridactyl-container-color-red: #ff613d;
+    --tridactyl-container-color-pink: #ff4bda;
+    --tridactyl-container-color-purple: #af51f5;
+
+    --tridactyl-externaledit-bg: var(--tridactyl-logo) no-repeat center;
+}
